@@ -1,0 +1,41 @@
+/* 
+    Document   : styleList
+    Created on : 21/03/2013, 10:44:38 PM
+    Author     : JORGE LUIS HENAO
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+root { 
+    display: block;
+}
+
+body{
+    padding-left: 0.3em;
+    font-family: Khmer UI, "Times New Roman", serif;    
+    background-color: greenyellow;     
+}
+
+UL {    
+    padding: 0;
+    margin:  0;
+    position: absolute;
+    top:  3em;
+    left: 1em;
+    width:17em      
+}
+
+LI {
+    list-style-type: none; /*Quiamos el estilo de los puntos a la derecha */
+    color: white;    
+    background: rgba(0,0,0,0.3);   
+    margin:  0.5em 0;
+    padding: 0.3em;
+    border-left: 1em solid black 
+        
+}
+
+LI { 
+    border-right: 1em solid black 
+}
+
